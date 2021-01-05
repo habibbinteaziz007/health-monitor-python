@@ -23,7 +23,7 @@ def submit_temperature(temperature):
 
     if len(firebase_admin._apps) == 0:
         cred = credentials.Certificate('./service.json')
-        firebase_admin.initialize_app(cred, {'databaseURL': 'https://healthmonitor-56a4b.firebaseio.com/',
+        firebase_admin.initialize_app(cred, {'databaseURL': 'https://health-monitor-c2352-default-rtdb.firebaseio.com/',
                                                  'databaseAuthVariableOverride': None})
     db.reference("temperature").push().set({'value': int(temperature)})
     return "done"
@@ -34,7 +34,7 @@ def submit_heartbeat(heartbeat):
     heartbeat = random.randrange(81, 97)
     if len(firebase_admin._apps) == 0:
         cred = credentials.Certificate('./service.json')
-        firebase_admin.initialize_app(cred, {'databaseURL': 'https://healthmonitor-56a4b.firebaseio.com/',
+        firebase_admin.initialize_app(cred, {'databaseURL': 'https://health-monitor-c2352-default-rtdb.firebaseio.com/',
                                              'databaseAuthVariableOverride': None, })
     db.reference("heartbeat").push().set({'value': int(heartbeat)})
     return "done"
