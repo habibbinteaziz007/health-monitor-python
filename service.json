@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "860233238851",
+    "firebase_url": "https://health-monitor-c2352-default-rtdb.firebaseio.com",
+    "project_id": "health-monitor-c2352",
+    "storage_bucket": "health-monitor-c2352.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860233238851:android:d5d0948595f07d84f787f6",
+        "android_client_info": {
+          "package_name": "com.habiba.health.monitor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "860233238851-5hcbt96t7pch686raeh4dgrjb9ob99em.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.habiba.health.monitor",
+            "certificate_hash": "fdecdfd2a3439afbe93b279209b50778e32cfa1a"
+          }
+        },
+        {
+          "client_id": "860233238851-mn3m5qpltdkg3tf53h2432bv0ggkhkj1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsbVULQjL3n7p2Yx8bUSLRigyDhGTX8fc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "860233238851-mn3m5qpltdkg3tf53h2432bv0ggkhkj1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
