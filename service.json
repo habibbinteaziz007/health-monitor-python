@@ -1,48 +1,12 @@
 {
-  "project_info": {
-    "project_number": "860233238851",
-    "firebase_url": "https://health-monitor-c2352-default-rtdb.firebaseio.com",
-    "project_id": "health-monitor-c2352",
-    "storage_bucket": "health-monitor-c2352.appspot.com"
-  },
-  "client": [
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:860233238851:android:d5d0948595f07d84f787f6",
-        "android_client_info": {
-          "package_name": "com.habiba.health.monitor"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "860233238851-5hcbt96t7pch686raeh4dgrjb9ob99em.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.habiba.health.monitor",
-            "certificate_hash": "fdecdfd2a3439afbe93b279209b50778e32cfa1a"
-          }
-        },
-        {
-          "client_id": "860233238851-mn3m5qpltdkg3tf53h2432bv0ggkhkj1.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyAsbVULQjL3n7p2Yx8bUSLRigyDhGTX8fc"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "860233238851-mn3m5qpltdkg3tf53h2432bv0ggkhkj1.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    }
-  ],
-  "configuration_version": "1"
+  "type": "service_account",
+  "project_id": "health-monitor-c2352",
+  "private_key_id": "636f8431dc26fec1317a13c026efca65bff606db",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDeKV6kjDO1OjCq\nUoxMOa2rYVMG5dkdoZEDsZOz4vBfj7HFahlSwPbMGUXSx7dC8COifmmD7yueQTmZ\nqm8syrQVBp6txHIH74adCTfiBprG2nhCT+68ruCQf5s1kAdj2jQgRUxla29JkYOW\nWfw9/s+ZNoOlBP+nTXcJVm2D9dPGKKgYUynFv3FCYARvtBiv6tlnikP4r0NgaJ2z\nb6lQ/8rvyJAEehpbsEeBszpLGQ6Orb+4PRfwpMled3SeQOHC7VlRNj2TXLKQ6J+O\n/lcW49tvN4fr2YQ+rl2wOxgDtOMa8rg4IdSr+hp0RIpb62AOaKlNx8K8ESxztOtq\ndP1DneJBAgMBAAECggEACHilXjrmYdu1LVl2dhWg9K8CXnn3PHUDtZNY4Xwe1FYD\nXla8XnZzMrcn/XCWIVxMz45ocZp2HFO6YYypLpkQItkcxd1+x6Svil9mnRzJXBnK\niiTIIrO8ZmYnQfSbA4i3gh+CWT+uf6ynytzljGuh+OKmRG2bXgLLLjT4ehaum5ix\nDbIzsPNl8KVQ4lt2CmNFyNbUVoLHKXKK5sPga/Hr/Vfi5HEhpMAgAcXTordfOCpn\n2oLtLNf+Ftuz1WZh+BK7jRPNQs3YOEXwdmfaQM86M4YFat8IH0WGDOQHHtqFsQZS\nzY0YrvLES1DsjYdA9uh/UDyu92rfpq3U5CiCMXJi/QKBgQD/EhW2ji/AOMKOQ/7d\nRjdyAhzJf6hgfHP5UM2cPVj+uik0ce2YKGxwGSbPeXobN6jEJjjTNaIiX9JFL6Kk\nKg+/OkUNOLjnmroHXp37urFZ9LTi7YuUyJtEqDIPgyO3i7TUEuTwAxvq1y5NGnjJ\n0jO+/zO7lfDx2EZlRWt9PRn5GwKBgQDe+JbXY3/TCyAfO1iVrcq+JvprRtGmh5WK\nieQBAcqooqHlA75jeuUbvzsJi/XTu6eoMSFKl9sd8agVz7XDpUqjOfDYzrHTJRVr\ny/Ozsupi3806QsqbU3xfxpFHT4jRDFIW+BJbLeSDMmxn0yNzsivgtGemby7EvlCN\nhX7ciMLD0wKBgAFlsPbCCqLr7Kzo1HGT2+Pk/RFhgKOequf3uFidwWoLzQP7h8io\nmAd5K8xBJxkVEfiZGQCXL58ulTFJ1IM/s7xhblVnNSQXpeM6cnUZjbUncQI5OOWE\nv8z9euC44C42NrResiBadAGyUg+cEINSgnQOY9MoPBynCaOuYKtb9VN3AoGBAIMG\nsh2Aau0p7IZt6XCL4Eg9v4qq4yhpJId04Hd3BhBzAZAC0y7CWUAk8Bx8EsmJzMwZ\nkuaytiCykYO/u6Bs0Z95vP6q9/SMJjpib6N50CKqQX+rIESGmt/tYBH3uv6drt+w\nh5jtLwup5epdOMgUO5Sgbwhu7ZzP+aYwfIw8EbfhAoGBAJ/uErGzTuooJs+mRMuT\nwRSS3rHByrSEOi83/YWYF+EBuA6WAfxlhKw4XpKfOetPARVyf/h4lHFx+B7QU5oB\nwG108uC9bZKKMgpAiooJb35b+eDQmWUdmzzGD4MQarUNpiwPLpRjy8scR61rseUG\nNGXAOAhiKi6h+ylWZIq9kYgv\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-anjm6@health-monitor-c2352.iam.gserviceaccount.com",
+  "client_id": "111531181148937255057",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-anjm6%40health-monitor-c2352.iam.gserviceaccount.com"
 }
