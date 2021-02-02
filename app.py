@@ -4,6 +4,7 @@ from firebase_admin import credentials
 from firebase_admin import db
 import random
 import requests
+from twilio.rest import Client
 
 app = Flask(__name__)
 
@@ -16,10 +17,12 @@ def index():
 @app.route('/submit/temperature/<temperature>')
 def submit_temperature(temperature):
     fahrenheit = (int(temperature) * 1.8) + 32
-    link = 'http://developer.muthofun.com/sms.php?username=shilpakala&password=Shilpa@20&mobiles=01625376336&sms=Critical Temperature&uniccode=1'
     if fahrenheit >= 100:
-        requests.get(url=link)
-        print("SMS SEND")
+        account_sid = 'AC8b072243584c48f9362b4783cbadd8f0' 
+        auth_token = '34acedcefc97342e772c813feb7daac8' 
+        client = Client(account_sid, auth_token)
+        message = client.messages.create(  messaging_service_sid='MGa12bc9fb5d436e3903e7eeaf8e09eb5f',to='+8801625376336',body='Patient body temperature is '+str(int(fahrenheit))+' F') 
+        print(message.sid)
 
     if len(firebase_admin._apps) == 0:
         cred = credentials.Certificate('./service.json')
