@@ -16,7 +16,7 @@ def index():
 @app.route('/submit/temperature/<temperature>')
 def submit_temperature(temperature):
     fahrenheit = (int(temperature) * 1.8) + 32
-    link = 'http://developer.muthofun.com/sms.php?username=hasanmahmud&password=hAsAn.420&mobiles=01625376336&sms=Critical Temperature&uniccode=1'
+    link = 'http://developer.muthofun.com/sms.php?username=shilpakala&password=Shilpa@20&mobiles=01625376336&sms=Critical Temperature&uniccode=1'
     if fahrenheit >= 100:
         requests.get(url=link)
         print("SMS SEND")
